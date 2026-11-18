@@ -1,7 +1,5 @@
-# When Should US Bars Show European Soccer?
+# Which European soccer leagues and clubs offer the most commercially attractive match schedules for American bars??
 
-Which European leagues and clubs offer the most commercially valuable
-match schedules for American bars?
 
 **Dashboard:** [Tableau Public link]   **Memo:** [docs/memo.md]
 
@@ -23,7 +21,7 @@ match schedules for American bars?
 1. Converted kickoff times to US Eastern time (DST-aware)
 2. Scored each match by time window (see docs/assumptions.md)
 3. Weighted by US fan interest
-4. Tested rankings under 3 scoring scenarios
+4. Tested rankings under 3 different time ranking cases
 
 ## Tools
 Python (pandas), DuckDB SQL, Tableau Public
